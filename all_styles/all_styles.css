@@ -78,11 +78,12 @@ h1:hover, h2:hover, p:hover {
 }
 .header-logo {
     display: flex;
+    margin-left: 63px;
 }
 .header-logo>a>img {
     width: 100px;
     height: 60px;
-    margin: auto -50px auto auto;
+    margin: auto 0;
 }
 .header_navigation ul {
     display: flex;
@@ -95,7 +96,7 @@ h1:hover, h2:hover, p:hover {
     align-self: center;
 }
 .header_logo {
-    margin: 13px 55px;
+    margin: 13px 10px;
     font-size: x-large;
     font-weight: 900;
     display: inline-block;
@@ -219,7 +220,6 @@ footer {
     background-size: 400% 400%;
 	animation: anim_text 5s ease infinite;
     font-size: larger;
-    font-weight: 900;
 }
 .footer_main-links a{
     text-decoration: none;
@@ -232,6 +232,14 @@ footer {
 .footer_main-info a{
     color: white;
     text-decoration: none;
+}
+.footer_main-info > a > span{
+    display: inline-block;
+    background: linear-gradient(to left, #12BCB0 20%, #FABE0E 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: anim_text 5s ease infinite;
 }
 .footer_main-soc_links img {
     position: relative;
