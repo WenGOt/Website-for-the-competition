@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best website to find something new about games!">
+    <title id="title">Contact us</title>
+    <link rel="stylesheet" href="all_styles/all_styles.css">
+    <link rel="stylesheet" href="all_styles/contact_us.css">
+    <script src="scripts/main_script.js"></script>
+</head>
+<body>
+    <!--
+        Сайт состоит из пяти основных страниц:
+        Home, About us, Services, News, Contact us.
+        Содержание всех страниц будет только на html, css и js.
+    -->
+
+    <!--
+        Создаю Header с навигационной панелью, 
+        которая используется на всех страницах.
+    -->
+    <header>
+        <nav class="header_navigation">
+            <a class="header_logo" href="index.html">LOGO</a>
+            <ul class="header_navigation-list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html">About us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./news.html">News</a></li>
+                <a href="./contact_us.html" class="contact_us">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--
+        Основное тело сайта.
+    -->
+    <div class="main">
+        
+        <!-- Первый блок c навигацией, текстом, картой и реквизитами-->
+        <div class="main_firstblock">
+            <div class="firstblock-navigation">
+                <a href="./index.html">Home</a>
+                <p>></p>
+                <a href="./news.html">Contact us</a>
+            </div>
+            <div class="firstblock-text">
+                <h1>Our branches are located all over the world!</h1>
+                <p>You will most likely be able to find it even in your city</p>
+            </div>
+            <img src="./images/contact_us/map.png" alt="map">
+            <div class="firstblock-content">
+                <div class="firstblock-content_social">
+                    <p>Follow us</p>
+                    <img src="./images/contact_us/soc_links.png" alt="social links">
+                </div>
+                <div class="firstblock-content_phone">
+                    <img src="./images/contact_us/phone.png" alt="phone">
+                    <p>+999 99999 999</p>
+                </div>
+                <div class="firstblock-content_gps">
+                    <img src="./images/contact_us/gps.png" alt="gps">
+                    <p>Look for us in all countries of the world!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Второй блок с инпутами для возможности связаться -->
+        <div class="main_secondblock">
+            <img src="./images/contact_us/background (1).png" alt="background">
+            <img src="./images/contact_us/background (3).png" alt="background">
+
+            <div class="secondblock-content">
+                <p>Say hello</p>
+                <p>You can write to support or just say hello using the same form</p>
+                <div class="secondblock-content_inputs1">
+                    <div class="secondblock-content_inputs1--left">
+                        <p>First Name</p>
+                        <input type="text">
+                    </div>
+                    <div class="secondblock-content_inputs1--right">
+                        <p>Last Name</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="secondblock-content_inputs2">
+                    <p>Email Address</p>
+                    <input type="text">
+                </div>
+                <div class="secondblock-content_inputs3">
+                    <p>Message</p>
+                    <input type="text">
+                </div>
+                <a href="#">Get in touch</a>
+            </div>
+        </div>
+
+        <!-- Универсальный блок с рассылкой -->
+        <div class="main_universalblock">
+            <p class="universalblock-head">How to be the first to know about news in the gaming world?</p>
+            <p class="universalblock-text">You can sign up for the latest news newsletter below.</p>
+            <div class="universalblock-mailing">
+                <div class="universalblock-mailing_content">
+                    <p class="universalblock-mailing_head">Stay in the loop</p>
+                    <p class="universalblock-mailing_text">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!</p>
+                </div>
+                <div class="universalblock-mailing_input">
+                    <input class="universalblock-mailing_inputbtn" type="text" title="Enter your text" placeholder="Enter your text">
+                    <input class="universalblock-mailing_submit" type="submit" value="Continue">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--
+        Footer с различным содержанием,
+        начиная от ссылок на другие страницы
+        и заканчивая ссылками на соц-сети и контактный телефон. 
+        Используется также на всех страницах.
+    -->
+    <footer>
+        <div class="footer_main">
+            <div class="footer_main-logo">
+                <a href="./index.html">LOGO</a>
+                <p>You can always find something new here =) </p>
+                <p>@Logo</p>
+            </div>
+            <div class="footer_main-links">
+                <a href="./about_us.html" style="font-weight: bold;">About us</a>
+                <div class="footer_main-links--block">
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./news.html">News</a></p>
+                    <p><a href="./services.html">Services</a></p>
+                </div>
+            </div>
+            <div class="footer_main-info">
+                <a href="./contact_us.html" style="font-weight: bold;">Contact us</a>
+                <p>To tell us something or ask a question, you can call the phone number below.</p>
+                <p>+999 99999 999</p>
+            </div>
+            <div class="footer_main-soc_links">
+                <img src="images/soc_links.png" alt="soc_links">
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+        </div>
+    </footer>
+</body>
+</html>
