@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best website to find something new about games!">
+    <title id="title">About us</title>
+    <link rel="stylesheet" href="all_styles/all_styles.css">
+    <link rel="stylesheet" href="all_styles/about_us.css">
+    <script src="scripts/main_script.js"></script>
+</head>
+<body>
+    <div>
+    <!--
+        Сайт состоит из пяти основных страниц:
+        Home, About us, Services, News, Contact us.
+        Содержание всех страниц будет только на html, css и js.
+    -->
+
+    <!--
+        Создаю Header с навигационной панелью, 
+        которая используется на всех страницах.
+    -->
+    <header>
+        <nav class="header_navigation">
+            <div class="header-logo">
+                <a href="./index.html"><img src="./images/Logo.png" alt="Logo"></a>
+                <a class="header_logo" href="./index.html">НГГПК</a>
+            </div>
+            <ul class="header_navigation-list">
+                <li><a href="./index.html">Home</a></li>
+                <li>
+                    <a href="./about_us.html">About us</a>
+                    <img id="header_navigation-image" src="images/Under_line.png" alt="under_line">
+                </li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./news.html">News</a></li>
+                <a href="./contact_us.html" class="contact_us">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--
+        Основное тело сайта.
+    -->
+    <div class="main">
+
+        <!-- Первый блок с текстом и картинкой на почти весь экран -->
+        <div class="main_firstblock">
+            <div class="firstblock-content">
+                <div class="firstblock-content_navigation">
+                    <a href="./index.html">Home</a>
+                    <p>></p>
+                    <a href="./about_us.html">About us</a>
+                </div>
+                <h1>Only new and current news about us. Find what you need!</h1>
+                <p>Here you will find the most current and recent changes in our organization. To get acquainted with the changes, click on the button below.</p>
+                <div class="firstblock-content_btn">
+                    <a href="#">Get in touch <img src="./images/about_us/arrow.png" alt="arrow"></a>
+                </div>
+            </div>
+            <div class="firstblock-image">
+                <img src="./images/about_us/game.png" alt="game">
+            </div>
+        </div>
+
+        <!-- Блок с ответами на вопросы -->
+        <div class="main_secondblock">
+            <p>Why work with us</p>
+            <div class="secondblock-content">
+                <div class="secondblock-content_text1">
+                    <p>Strategy</p>
+                    <p>The main thing is strategy</p>
+                    <p>Few people understand, but the strategy is extremely important, because because of it we managed to achieve heights.</p>
+                </div>
+                <div class="secondblock-content_text2">
+                    <p>Quality</p>
+                    <p>We need more quality!</p>
+                    <p>Many people often notice that we make the highest quality news and products.</p>
+                </div>
+                <div class="secondblock-content_text3">
+                    <p>Priorities</p>
+                    <p>Properly prioritized</p>
+                    <p>An integral part of our work is properly prioritized. Many years of work have helped us in this.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с картинкой девушки и текстом -->
+        <div class="main_thirdblock">
+            <img src="./images/about_us/girl.png" alt="girl">
+            <div class="thirdblock-content">
+                <p>Community</p>
+                <p>We all choose only this company! We need more! We want you not to relax! </p>
+                <p>These are frequent comments on our posts or news. You can see it for yourself by going to the news page where all our latest posts are located. In them you can find out what is happening in our projects or just chat with us.</p>
+            </div>
+        </div>
+
+        <!-- Блок с лицами нашей команды -->
+        <div class="main_fourblock">
+            <p>Our team</p>
+            <div class="fourblock-content">
+                <div class="fourblock-content_page1">
+                    <img src="./images/about_us/Bill.png" alt="Bill">
+                    <p>John peter</p>
+                    <p>COO</p>
+                </div>
+                <div class="fourblock-content_page2">
+                    <img src="./images/about_us/Beverly.png" alt="Beverly">
+                    <p>Anna Smith</p>
+                    <p>COO</p>
+                </div>
+                <div class="fourblock-content_page3">
+                    <img src="./images/about_us/Claudia.png" alt="Claudia">
+                    <p>Stefany Powell</p>
+                    <p>TIO</p>
+                </div>
+                <div class="fourblock-content_page4">
+                    <img src="./images/about_us/Avatar.png" alt="Avatar">
+                    <p>Adam White</p>
+                    <p>COP</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Универсальный блок с рассылкой -->
+        <div class="main_universalblock">
+            <p class="universalblock-head">How to be the first to know about news in the gaming world?</p>
+            <p class="universalblock-text">You can sign up for the latest news newsletter below.</p>
+            <div class="universalblock-mailing">
+                <div class="universalblock-mailing_content">
+                    <p class="universalblock-mailing_head">Stay in the loop</p>
+                    <p class="universalblock-mailing_text">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!</p>
+                </div>
+                <div class="universalblock-mailing_input">
+                    <input class="universalblock-mailing_inputbtn" type="text" title="Enter your text" placeholder="Enter your text">
+                    <input class="universalblock-mailing_submit" type="submit" value="Continue">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--
+        Footer с различным содержанием,
+        начиная от ссылок на другие страницы
+        и заканчивая ссылками на соц-сети и контактный телефон. 
+        Используется также на всех страницах.
+    -->
+    <footer>
+        <div class="footer_main">
+            <div class="footer_main-logo">
+                <a href="./index.html">НГГПК - Находкинский Государственный Гуманитарно-Политехнический Колледж</a>
+                <p>Название проекта - <span>Сайт по </span></p>
+                <p>@НГГПК</p>
+            </div>
+            <div class="footer_main-links">
+                <a href="./index.html" style="font-weight: bold;">Home</a>
+                <div class="footer_main-links--block">
+                    <p><a href="./about_us.html">About us </a></p>
+                    <p><a href="./news.html">News</a></p>
+                    <p><a href="./services.html">Services</a></p>
+                    <p><a href="./contact_us.html">Contact us</a></p>
+                </div>
+            </div>
+            <div class="footer_main-info">
+                <a href="https://vk.com/wengot" style="font-weight: bold;">Автор - <span>Давыдов Сергей Артёмович</span></a>
+                <br>
+                <a href="https://www.nggpc.ru/index.php">Ссылка на колледж - <span>Клик</span></a>
+                <p>To tell us something or ask a question, you can call the phone number below.</p>
+                <p>+999 99999 999</p>
+            </div>
+            <div class="footer_main-soc_links">
+                <a href="https://vk.com/wengot"><img src="images/soc_links.png" alt="soc_links"></a>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>Copyright ® 2024 Lorem All rights Rcerved</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
