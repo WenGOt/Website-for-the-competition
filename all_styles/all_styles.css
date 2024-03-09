@@ -45,6 +45,21 @@ h1:hover, h2:hover, p:hover {
         background-color: rgb(226, 147, 0);
     }
 }
+/* 
+Анимация для ЛОГО
+*/
+@keyframes anim_text {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+      }
+}
+
 
 /*
 Основные стили для header-a
@@ -75,7 +90,13 @@ h1:hover, h2:hover, p:hover {
     margin: 13px 55px;
     font-size: x-large;
     font-weight: 900;
-}
+    display: inline-block;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: anim_text 5s ease infinite;
+  }
 #header_navigation-image {
     position: absolute;
     margin-top: 10px;
@@ -183,8 +204,12 @@ footer {
     width: 30%;
 }
 .footer_main-logo a{
-    color: white;
-    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: anim_text 5s ease infinite;
     font-size: larger;
     font-weight: 900;
 }
