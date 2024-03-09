@@ -76,6 +76,14 @@ h1:hover, h2:hover, p:hover {
     align-self: center;
     white-space: nowrap; /* Текст не складывается в гармошку */
 }
+.header-logo {
+    display: flex;
+}
+.header-logo>a>img {
+    width: 100px;
+    height: 60px;
+    margin: auto -50px auto auto;
+}
 .header_navigation ul {
     display: flex;
     text-decoration: none;
@@ -96,7 +104,7 @@ h1:hover, h2:hover, p:hover {
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
 	animation: anim_text 5s ease infinite;
-  }
+}
 #header_navigation-image {
     position: absolute;
     margin-top: 10px;
